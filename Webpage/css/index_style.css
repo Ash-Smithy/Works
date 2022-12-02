@@ -1,3 +1,88 @@
-h1 {
-    color : red;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to left,rgb(31, 22, 42) 10%, rgb(80, 10, 141) 90% );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.navbar-scroll0 {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-scroll1 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-scroll2 {
+    background-color: rgba(0, 0, 0,0.8);
+}
+.navbar-brand img {
+    width: 30px; 
+    height: 30px;
+}
+
+.collapse a {
+    text-align: center;
+}
+.nav-item {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+.nav-item .nav-link {
+    color: white;
+}
+.nav-item .nav-link:hover {
+    color: hotpink;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+#dropdown {
+    background-color: rgba(255, 255, 255, 0.83);
+    border: none;
+}
+
+#dropdown .dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.766);
+    color: crimson;
+}
+
+
+#menu-icon {
+    height: 20px;
+    width: 20px;
+    opacity: 70%;
+}
+.wrapper {
+    text-align: left;
+    padding: 5% 15%;
+}
+
+.head-1 {
+    color: rgba(197, 117, 240, 0.658);
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.556);
+    background-color: rgba(255, 255, 255, 0.162);
+    font-family: 'Satisfy', cursive;
+    font-size: xx-large;
+    border-style: none;
+    border-radius: 25px;
+    /* linear-gradient(to top right,#4158D0,#C850C0,#FFCC70); */
 }
