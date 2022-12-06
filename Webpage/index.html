@@ -4,17 +4,17 @@
         <title> Cool Title </title>
         <link rel="stylesheet" href="css/index_style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="/Webpage/js/index_java.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
         <style>
            @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Great+Vibes&family=Josefin+Sans&family=K2D:wght@300&family=Lobster&family=Lobster+Two&family=Satisfy&display=swap');
         </style>
-
-
     </head>
     <body>
         <!-- Nav bar -->
-        <nav class="navbar navbar-expand-lg sticky-top">
+        <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
           <div class="container-fluid ">
             <a class="navbar-brand p-2" href="#" style="color:white;"">
               <img src="/Webpage/Images/Icons/launch.png" alt="Logo" class="d-inline-block allign-text-top" >
@@ -50,8 +50,8 @@
           </div>
 
         </nav>
-          
-          <!-- End of Navbar -->
+        <!-- End of Navbar -->
+        
            <div class="wrapper">
               <h2 class="head-1 display-3 p-4">A Short Heading</h2>
               <p class="p-4" id="paras">
@@ -71,37 +71,5 @@
                 </p>
               </p>
           </div>
-
-          <script>
-           //Nav Opacity on scroll
-           var c0 = document.querySelector('nav');
-            window.addEventListener('scroll',function(){
-              if (window.pageYOffset >50) {
-                c1.classList.add('navbar-scroll0')
-              }
-              else {
-                c1.classList.remove('navbar-scroll0');
-              }
-            });
-            var c1 = document.querySelector('nav');
-            window.addEventListener('scroll',function(){
-              if (window.pageYOffset >75) {
-                c1.classList.add('navbar-scroll1')
-              }
-              else {
-                c1.classList.remove('navbar-scroll1');
-              }
-            });
-            var c2 = document.querySelector('nav');
-            window.addEventListener('scroll',function(){
-              if (window.pageYOffset > 100){
-                c2.classList.add('navbar-scroll2');
-              }
-              else {
-                c2.classList.remove('navbar-scroll2');
-              }
-            });
-
-          </script>
     </body>
 </html>
