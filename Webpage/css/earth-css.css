@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(https://media.tenor.com/2m0CmBz15-IAAAAC/earth-planet.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    transition: all 0.5s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-scroll2 {
+    transition: all 0.7s;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.navbar-brand img {
+    width: 30px; 
+    height: 30px;
+}
+
+
+.nav-item {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+}
+.nav-item .nav-link {
+    color: rgb(255, 255, 255);
+}
+.nav-linkS {
+    color: rgb(255, 255, 255);
+}
+.nav-item .nav-link:hover {
+    color: cyan;
+}
+    
+.navbar-nav .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+#dropdown {
+    padding: 4px;
+    background-color: rgba(15, 15, 15, 0.849);
+    border:none;
+}
+
+.back-icon {
+    width: 30px; 
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+}
