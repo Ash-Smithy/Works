@@ -46,7 +46,6 @@
 #smith {
     display: inline;
     border-radius: 60%;
-    padding: 0px;
     opacity: 0.9;
 }
 #offcanvasLabel {
@@ -63,11 +62,14 @@
     color: rgb(255, 76, 52);
 }
 .offcanvas-body .something {
+    padding: 10px;
     font-family: 'Comfortaa', cursive;
     color: rgba(240, 248, 255, 0.87);
     width:19rem;
     background-color: rgba(0, 0, 0, 0);
-    border:none;
+    border: none;
+    border-radius: 70px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.205), 0 6px 20px 0 rgba(255, 255, 255, 0.227);
 }
 
 
