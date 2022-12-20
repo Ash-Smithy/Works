@@ -22,7 +22,7 @@
                     Space
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-                  <img src="/Images/Icons/ham_icon.png" alt="" id="toggler-icon">
+                  <img src="/Webpage/Images/Icons/ham_icon.png" alt="" id="toggler-icon">
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -36,7 +36,7 @@
                       <a class="nav-link" href="Earth.html">Earth</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link nav-linkS" href="#Mars">Mars</a>
+                      <a class="nav-link" href="#Mars">Mars</a>
                     </li>
                     <li class="nav-item dropdown"  style="transition:2s;">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,7 +47,7 @@
                       </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="btn btn-secondary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                      <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvas">
                         About
                       </a>
                     </li>
@@ -55,38 +55,47 @@
                 </div>
             </div>
           </nav>
-          <div class="offcanvas offcanvas-start text-bg-dark" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">The Creator</h5>
+              <h5 class="offcanvas-title" id="offcanvasLabel">The Creator</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <div class="card text-bg-dark center border-light" style="width:10rem">
-                <img src="/Webpage/Images/Ash_Smith.png" class="card-mg-top" alt="Ash-Smithy">
+              <center>
+              <div class="something card text-center">
+                <img src="/Webpage/Images/Ash_Smith.jpeg" class="card-img-top" id="Smith" alt="Ash-Smithy">
                 <div class="card-body">
-                  This page was designed and created by Ash Smith.
+                  This page was designed and created by Ash Smith <br> It was created using HTML, CSS, JavaScript and Boostrap.
                 </div>
               </div>
+              <br>
+              <div class="something card text-center">
+                Links:
+                <a href="https://github.com/Ash-Smithy">GitHub</a>
+              </div>
+            </center>
             </div>
           </div>
         <!-- End of Navbar -->
         <div id="whole">
-          <div id="carousel" class="carousel slide Carousel-fade" data-bs-ride="carousel">
+          <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div id="black">
             <div class="carousel-inner">
-              <div class="carousel-item">
-                <img src="/Webpage/Images/Slideshow/1.jpg" class="d-block w-100" alt="">
-              </div>
-              <div class="carousel-item">
-                <img src="/Webpage/Images/Slideshow/2.jpg" class="d-block w-100" alt="">
-              </div>
-              <div class="carousel-item">
-                <img src="/Webpage/Images/Slideshow/3.jpg" class="d-block w-100" alt="">
-              </div>
-              <div class="carousel-item">
-                <img src="/Webpage/Images/Slideshow/3.5.jpg" class="d-block w-100" alt="">
-              </div>
-              <div class="carousel-item active">
-                <img src="/Webpage/Images/Slideshow/4.jpg" class="d-block w-100" alt="">
+                <div class="carousel-item active">
+                  <img src="/Webpage/Images/Slideshow/1.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img src="/Webpage/Images/Slideshow/2.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img src="/Webpage/Images/Slideshow/3.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img src="/Webpage/Images/Slideshow/3.5.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img src="/Webpage/Images/Slideshow/4.jpg" class="d-block w-100" alt="">
+                </div>
               </div>
           </div>
           </div>
