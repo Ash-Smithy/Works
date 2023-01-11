@@ -19,12 +19,15 @@ head title {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 5px;
+    background-color: transparent;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background-color: rgba(28, 28, 28, 0.951);
+    margin : 0;
+    padding : 0;
+    width : 0;
   }
   
   /* Handle */
@@ -34,6 +37,11 @@ head title {
   }
 
 
+
+body {
+    overflow: overlay;
+    background-color: black;
+}
 
    /* OffCanvas */
 
@@ -92,11 +100,13 @@ nav {
     background-color: rgba(0, 0, 0, 0.8);
 }
 .navbar-brand img {
-    width: 30px; 
-    height: 30px;
+    width: 40px; 
+    height: 40px;
 }
 
+
 .nav-item {
+    font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
     padding: 5px;
 }
@@ -157,10 +167,13 @@ nav {
 }
 
 /* Carousel */
+.carousel {
+    position: relative;
+}
 .carousel-item img {
     opacity: 1;
 }
-/* Body */
+/* Content */
 
 #whole {
     background-image: linear-gradient(to bottom left,rgb(25, 4, 51) 30%, rgb(24, 24, 24) 70% );
