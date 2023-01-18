@@ -168,6 +168,7 @@ nav {
 
 /* Carousel */
 .carousel {
+    overflow: overlay;
     position: relative;
 }
 .carousel-item img {
